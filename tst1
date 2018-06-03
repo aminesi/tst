@@ -1,2 +1,26 @@
-tst1
+$ cd Desktop/git_exercise/
+$ git init
+$ git add hello.txt
+$ git commit -m "Initial commit."
+# This is only an example. Replace the URI with your own repository address.
+$ git remote add origin https://github.com/tutorialzine/awesome-project.git
 
+
+
+The Git command to do this is git push and takes two parameters - the name of the remote repo (we called ours origin) and the branch to push to (master is the default branch for every repo).
+
+$ git push origin master
+
+$ git clone https://github.com/tutorialzine/awesome-project.git
+
+$ git pull origin master
+
+$ git branch amazing_new_feature
+
+$ git checkout amazing_new_feature
+
+$ git merge amazing_new_feature
+
+$ git branch -d amazing_new_feature
+
+git pull --rebase origin master
